@@ -1,0 +1,7 @@
+<div *ngFor="let article of articles" class="article-card">
+    <img [src]="article.Image" alt="{{ article.Title }}" class="article-image" />
+    <h2>{{ article.Title }}</h2>
+    <p>{{ article.Introduction }}</p>
+    <p><strong>Last Modified:</strong> {{ article.LastMod }}</p>
+    <p><strong>Theme ID:</strong> {{ article.IdTheme }}</p>
+</div>
